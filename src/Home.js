@@ -44,7 +44,8 @@ export default class Home extends Component {
                         <Card.Text>
                           {character.shortDescription}
                         </Card.Text>
-                        <Link to={"/display-"+character.id}><Button>Plus d'info</Button></Link>
+                        <Link to={"/character/"+character.id}><Button>Plus d'info</Button></Link>
+                        <Link to={"/Edit-"+character.id}><Button>Edit</Button></Link>
                       </Card.Body>
                     </Card>   
                   </Col>           
